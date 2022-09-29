@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#hero {
+    width: 592px;                        /* tamanhoa da caixa para os textos */
+    margin: 0 auto 72px;                        /* 0 top auto left right  72px baixo */
+}
+
+#hero img {
+    margin-bottom: 72px;                 /* espaço entre a imagem e o texto (bot) ordem: Top/Right/Bottom/Left*/
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+h1 span {
+    font-weight: bold;                    /*ISSO DEIXA O "UNICOS" EM NEGRITO */
+}
+
+span, a {
+    color: #FF9900;
+}
+
+p, #footer {                             /* cor das letras e também tamanho do "insta" e "fale conosco" */
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#footer a + a {                      /* pega o a que tem um outro a antes e aplica a margem. */
+    margin-left: 28px;
+}
+
+#footer #line {                          /* linhazinha fina embaixo */
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+}
+
+#balls {                                /* bolinhas no canto inferior direito */
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
